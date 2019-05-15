@@ -1,7 +1,9 @@
+package Test;
+
 /**
  * @author zhangke
  * @version 1.0
- * @className SanDongExamModeInfo
+ * @className Test.SanDongExamModeInfo
  * @description TODO
  * @date 2019/1/2 上午10:54
  **/

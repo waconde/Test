@@ -3,7 +3,7 @@ package fanxing.fangxingClass;
 /**
  * @author zhangke
  * @version 1.0
- * @className test1
+ * @className Test.test1
  * @description TODO
  * @date 2019/2/23 上午12:07
  **/
