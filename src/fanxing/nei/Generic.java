@@ -1,4 +1,4 @@
-package fanxing.fangxingClass;
+package fanxing.nei;
 
 /**
  * @author zhangke

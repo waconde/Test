@@ -1,4 +1,4 @@
-package fanxing.fangxingClass;
+package fanxing.nei;
 
 /**
  * @author zhangke
@@ -24,7 +24,7 @@ public class test1 {
         System.out.println("泛型测试,key is"+ generic2.getKey());
         System.out.println("泛型测试,key is"+ generic3.getKey());
         Student student =new Student(1,"zhangke");
-        Generic generic4 = new Generic<Student>(student);
+        Generic generic4 = new Generic<>(student);
         System.out.println(generic4.getKey());
         Generic generic5= new Generic(student);
         System.out.println(generic5.getClass());
