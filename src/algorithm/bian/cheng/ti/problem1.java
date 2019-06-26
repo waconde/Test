@@ -6,7 +6,7 @@ import java.util.Scanner;
  * @author zhangke
  * @version 1.0
  * @className problem1
- * @description TODO
+ * @description 输入输出测试
  * @date 2019/2/25 下午5:27
  **/
 public class problem1 {

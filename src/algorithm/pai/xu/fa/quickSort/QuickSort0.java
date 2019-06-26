@@ -47,7 +47,14 @@ public class QuickSort0 {
         array[left] = key;
         return left;
     }
-    //上数取中
+
+    /**
+     * 三数取中
+     * @param array
+     * @param left
+     * @param right
+     * @return
+     */
     public static int mid3(int[] array, int left, int right) {
         int mid=(left+right)/2;
         if (array[right]< array[left] ) {
@@ -61,6 +68,13 @@ public class QuickSort0 {
         }
         return array[left];
     }
+
+    /**
+     * 两数交换
+     * @param arr
+     * @param a
+     * @param b
+     */
     public static void swap ( int[] arr, int a, int b){
         int temp = arr[a];
         arr[a] = arr[b];

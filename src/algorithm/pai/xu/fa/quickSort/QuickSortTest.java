@@ -11,7 +11,7 @@ package algorithm.pai.xu.fa.quickSort;
  * @date 2019/1/22 上午10:49
  **/
 public class QuickSortTest {
-    public static  void main(String [] args){
+    public static void main(String[] args) {
 //        int len=10;
 //        int[] arr1=new int[len];
 //        for (int i = 0; i < len; i++) {
@@ -20,28 +20,26 @@ public class QuickSortTest {
 //            int t=(int)(Math.random()*100);
 //            arr1[i]=t;
 //        }
-       // int [] arr1={3,4,3,99,59,30,4,52,60,80};
-        int [] arr1={3,4,7,2,5,6};
+        // int [] arr1={3,4,3,99,59,30,4,52,60,80};
+        int[] arr1 = {3, 4, 7, 2, 5, 6};
         System.out.println("排序前的数为： ");
-        for (int i = 0;i < arr1.length; i++){
-            System.out.print(arr1[i]+" ");
-            if(i%9==0&&i!=0){
+        for (int i = 0; i < arr1.length; i++) {
+            System.out.print(arr1[i] + " ");
+            if (i % 9 == 0 && i != 0) {
                 System.out.println(" ");
             }
         }
 
-        long start= System.currentTimeMillis();
-        QuickSort1.quickSort(arr1,0,arr1.length-1);
-        long end= System.currentTimeMillis();
-        System.out.println("排序所花的时间为： "+(end-start));
+        long start = System.currentTimeMillis();
+        QuickSort1.quickSort(arr1, 0, arr1.length - 1);
+        long end = System.currentTimeMillis();
+        System.out.println("排序所花的时间为： " + (end - start));
         System.out.println("排序后的数为： ");
-        for (int i = 0;i < arr1.length; i++){
-            System.out.print(arr1[i]+" ");
+        for (int i = 0; i < arr1.length; i++) {
+            System.out.print(arr1[i] + " ");
 
         }
 
     }
 
-
-
-    }
+}

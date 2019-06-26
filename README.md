@@ -1,28 +1,30 @@
 目录结构说明
 =========================
 
-**1、algorithms：常用算法题**
+**algorithms：常用算法题**
 
-**2、design.pattern：常见的设计模式**
+**Collections：常用集合工具类**
 
-**3、effectivejava：effectivejava书上的一些例子**
+**design.pattern：常见的设计模式**
 
-**4、Exception：异常的使用与总结**
+**effectivejava：effectivejava书上的一些例子**
 
-**5、fanxing：泛型的使用方法**
+**Exception：异常的使用与总结**
 
-**6、foreach的使用**
+**fanxing：泛型的使用方法**
 
-**7、延时监听**
+**foreach的使用**
 
-**8、jdbc测试连接**
+**延时监听**
 
-**9、ProducerConsumerProblem：生产者消费者模式**
+**jdbc测试连接**
 
-**10、编程过程中的测试**
+**ProducerConsumerProblem：生产者消费者模式**
 
-**11、多线程**
+**编程过程中的测试**
 
-**12、线程池**
+**多线程**
 
-**13、常用的utils**
+**线程池**
+
+**常用的utils**

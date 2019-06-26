@@ -15,7 +15,8 @@ public class problem {
     public static void main(String []args){
         System.out.print("请输入字符串：\n");
         Scanner sr1=new Scanner(System.in);
-        String i1=sr1.nextLine();//键盘接收字符串
+        //键盘接收字符串
+        String i1=sr1.nextLine();
         System.out.println(Permutation(i1));
     }
     public static ArrayList<String> Permutation(String str) {
