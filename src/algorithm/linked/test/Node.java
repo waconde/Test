@@ -1,4 +1,4 @@
-package algorithm.linkedTest;
+package algorithm.linked.test;
 
 /**
  * @author zhangke
@@ -9,8 +9,10 @@ package algorithm.linkedTest;
  **/
 public class Node {
     //注：此处的两个成员变量权限不能为private，因为private的权限是仅对本类访问。
-    int data; //数据域
-    Node next;//指针域
+    //数据域
+    int data;
+    //指针域
+    Node next;
     public Node(int data) {
         this.data = data;
     }

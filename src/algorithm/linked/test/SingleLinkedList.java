@@ -1,4 +1,4 @@
-package algorithm.linkedTest;
+package algorithm.linked.test;
 
 import java.util.Stack;
 
@@ -10,9 +10,12 @@ import java.util.Stack;
  * @date 2019/2/14 下午2:56
  **/
 public class SingleLinkedList {
-    //链表的成员变量
-    public Node firstNode;//每个链表都有一个头结点头结点
-    public Node currentNode;//当前节点
+    /**
+     * 每个链表都有一个头结点头结点
+     */
+    public Node firstNode;
+    //当前节点
+    public Node currentNode;
     //1向链表中添加数据
     public void add(int data) {
         //判断链表为空的时候

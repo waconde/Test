@@ -1,4 +1,4 @@
-package algorithm.linkedTest;
+package algorithm.linked.test;
 
 /**
  * @author zhangke
