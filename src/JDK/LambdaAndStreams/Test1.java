@@ -3,6 +3,7 @@ package JDK.LambdaAndStreams;
 import java.util.*;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 import static java.util.stream.Collectors.*;
 
@@ -45,7 +46,14 @@ public class Test1 {
             }
         };
 
+
+        List<String> userIds = javaProgrammers.stream().map(u -> u.getFirstName()).collect(Collectors.toList());
         //1、循环输出：现在我们使用forEach方法来迭代输出上述列表:
+
+        for (String userId : userIds) {
+            System.out.println(userId);
+
+        }
         System.out.println("所有程序员的姓名:");
         javaProgrammers.forEach((p) -> System.out.printf("%s %s; ", p.getFirstName(), p.getLastName()));
         phpProgrammers.forEach((p) -> System.out.printf("%s %s; ", p.getFirstName(), p.getLastName()));
